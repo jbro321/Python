@@ -1,1 +1,5 @@
-print("Hello World")
+print("Welcome to the Magic world!")
+print("I'm so glad to seeing you!")
+print("Now, You are getiing into the Magic world")
+print("Imagine your favorite character in your mind")
+print("To be continued...")
