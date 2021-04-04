@@ -1,5 +1,6 @@
-print("Welcome to the Magic world!")
-print("I'm so glad to seeing you!")
-print("Now, You are getiing into the Magic world")
-print("Imagine your favorite character in your mind")
-print("To be continued...")
+# Enthusiastic_Python_Basic #P_02_1_1
+
+def MH():
+    print("1 + 2 + 3 + 4 + 5", 1+2+3+4+5)
+    print("Simple is the best!")
+    print("행복한 파이썬~")
