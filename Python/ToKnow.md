@@ -30,3 +30,8 @@
 - s.rfind(sub) : s.find는 앞에서부터 sub를 찾는 반면 s.rfind는 뒤에서부터 찾는다.
 - \t 탭
 - del은 리스트 삭제 명령어
+- s.isdigit() : 문자열 s가 숫자로만 이뤄져 있으면 True, 아니면 False 반환
+- s.isalpha() : 문자열 s가 알파벳으로만 이뤄져 있으면 True, 아니면 False 반환
+- s.startswith(prefix) : 문자열 s가 prefix로 시작하면 True, 아니면 False 반환
+- s.endswith(suffix) : 문자열 s가 suffix로 끝나면 True, 아니면 False 반환
+- in 연산자는 해당 문자열에 원하는게 있는지 그 유무만 판단 가능
