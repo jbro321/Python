@@ -3,9 +3,9 @@
 def main():
     lcm = 1
     while True:
-        lcm+1
         if lcm % 6 == 0 and lcm % 45 == 0:
-            print("6과 45의 최소공배수", lcm, end = ' ')
+            return lcm
             break
+        lcm+=1
 
-print(main())
+print("6과 45의 최소공배수:", main(), end = ' ')
