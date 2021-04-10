@@ -1,4 +1,4 @@
-# Enthusiastic_Python_Basic #P_13_1_1
+# Enthusiastic_Python_Basic #P_13_1_3
 
 class Friend:
     def __init__(self, name, phone):
@@ -15,10 +15,15 @@ class Friend:
         print("전화번호:", self.phone)
 
 def main():
-    f = Friend('박재형', '010-1111-2222')
-    print(f.get_name())
-    print(f.get_phone())
-    f.set_phone('010-3333-5555')
-    f.show_info()
+    f1 = Friend('윤지민', '010-111-222')
+    f2 = Friend('이선준', '010-333-444')
+    f3 = Friend('장지우', '010-555-666')
+    f4 = Friend('윤지율', '010-777-888')
+
+    frs = [f1, f2, f3, f4]
+
+    for i in frs:
+        if i.get_name().startswith('윤'):
+            i.show_info()
 
 main()
