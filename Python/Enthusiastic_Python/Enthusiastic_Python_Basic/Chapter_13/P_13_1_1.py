@@ -1,4 +1,4 @@
-# Enthusiastic_Python_Basic #P_12_1_1
+# Enthusiastic_Python_Basic #P_13_1_1
 
 dc ={'새우깡': 700, '콘치즈': 850, '꼬깔콘': 750}
 
