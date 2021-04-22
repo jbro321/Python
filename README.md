@@ -2,8 +2,6 @@
 
 공부순서 : python - Database - flask/django
 
----
-
 ## <목차>
 
 - [ToKnow](./Python/ToKnow.md)
@@ -11,11 +9,7 @@
   - [Enthusiastic_Python_Basic](#Enthusiastic_Python_Basic)
   - [Enthusiastic_Python_Intermediate](#Enthusiastic_Python_Intermediate)
 
----
-
 ## Enthusiastic_Python
-
----
 
 ## Enthusiastic_Python_Basic
 
@@ -139,8 +133,6 @@
 14. Chapter_14 예외처리
 
     - [E_14_1_1.py](./Chapter_14/E_14_1_1.py) "try, except의 예외처리"
-
----
 
 ## Enthusiastic Python Intermediate
 
