@@ -8,6 +8,7 @@
 - [Enthusiastic_Python](#Enthusiastic_Python)
   - [Enthusiastic_Python_Basic](#Enthusiastic_Python_Basic)
   - [Enthusiastic_Python_Intermediate](#Enthusiastic_Python_Intermediate)
+- [Kaggle_Python](#Kaggle_Python)
 
 ## Enthusiastic_Python
 
