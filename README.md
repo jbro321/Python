@@ -8,6 +8,7 @@
 - [Enthusiastic_Python](#Enthusiastic_Python)
   - [Enthusiastic_Python_Basic](#Enthusiastic_Python_Basic)
   - [Enthusiastic_Python_Intermediate](#Enthusiastic_Python_Intermediate)
+- [Fastcampus_Python](#Fastcampus_Python)
 - [Kaggle_Python](#Kaggle_Python)
 
 ## Enthusiastic_Python
@@ -144,3 +145,7 @@
 2. Stroy_02 수정 가능한 객체와 수정 불가능한 객체
 
    - [S_02_1_1.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Intermediate/Story_02/S_02_1_1.py)
+
+## Fastcampus_Python
+
+## Kaggle_Python
