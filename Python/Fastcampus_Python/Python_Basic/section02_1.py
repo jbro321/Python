@@ -1,4 +1,4 @@
-# Section02-1
+# section02_1
 # 파이썬 기초 코딩
 # Print 구문의 이해
 
