@@ -70,7 +70,7 @@ print(a[0:3]) # nic 출력
 print(a[0:4])
 print(a[0:7])
 print(a[0:len(a)-1])
-print(a[:4]) # 앞은 처음부터라서 생략
+print(a[:4]) # 앞은 처음부터라서 생략 가능하다.
 print(a[:])
 print(b[0:4:2]) # 2개씩 점핑
 print(b[1:-2])
