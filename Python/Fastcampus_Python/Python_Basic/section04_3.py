@@ -69,6 +69,6 @@ print(y)
 
 # 삭제 : del, remove, pop
 
- 
+# 튜플 (순서o, 중복o, 수정x, 삭제x)
 
 
