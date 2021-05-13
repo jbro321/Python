@@ -99,7 +99,3 @@ print(z)
 print(3 in z)
 print(z.index(5))
 print(z.count(1))
-
-
-
-
