@@ -55,8 +55,8 @@ for key in my_info:
     print("my_info", key)
 
 # 값
-for key in my_info.values():
-    print("my_info", key)
+for value in my_info.values():
+    print("my_info", value)
 
 # 키
 for key in my_info.keys():
