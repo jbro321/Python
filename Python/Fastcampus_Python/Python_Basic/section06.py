@@ -116,12 +116,3 @@ func_final(10, 10, lambda_mul_10)
 
 print(func_final(10, 10, lambda x : x * 1000))
 
-
-
-
-
-
-
-
-
-
