@@ -56,3 +56,31 @@ print(model2.show())
 # Parent Method Call
 model3 = BenzCar("350s", "sedan", "silver")
 print(model3.show())
+
+# Inheritance Info(상속 정보)
+print(BMWCar.mro()) # 소스 파악할 때 사용
+print(BenzCar.mro())
+
+# Example 2
+# 다중 상속
+
+class X():
+    pass
+
+class Y():
+    pass
+
+class Z():
+    pass
+
+class A(X, Y):
+    pass
+
+class B(Y, Z):
+    pass
+
+class M(B, A, Z):
+    pass
+
+print(M.mro())
+print(A.mro())
