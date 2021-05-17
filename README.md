@@ -6,6 +6,7 @@
 
 - [ToKnow](./Python/ToKnow.md)
 - [Fastcampus_Python](#Fastcampus_Python)
+  - [Fastcampus_Python_Basic](#Fastcampus_Python_Basic)
 - [Enthusiastic_Python](#Enthusiastic_Python)
   - [Enthusiastic_Python_Basic](#Enthusiastic_Python_Basic)
   - [Enthusiastic_Python_Intermediate](#Enthusiastic_Python_Intermediate)
@@ -13,7 +14,39 @@
 
 ## Fastcampus_Python
 
-1. Chapter_01 파이썬 기초 핵심 과정
+### Chapter_01 파이썬 기초 핵심 과정
+1. 준비
+   [section01.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section01.py) "개발 환경 설정"
+
+2. 기초
+   - [section02_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section02_1.py) "Print 함수의 이해"
+   - [section02_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section02_2.py) "몸 풀기 코딩 해보기"
+
+3. 가상 환경
+   - [section03.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section03.py) "가상환경 설정 및 패키지 설치"
+
+4. 자료형
+   - [section04_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_1.py) "데이터타입, 숫자형 및 연산자"
+   - [section04_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_2.py) "문자열 및 연산자"
+   - [section04_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_3.py) "리스트, 튜플"
+   - [section04_4.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_4.py) "딕셔너리, 집합"
+   - [section04_quiz.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_quiz.py) "데이터 타입 - 퀴즈 및 풀이"
+
+5. 흐름 제어
+   - [section05_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_1.py) "조건문"
+   - [section05_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_2.py) "반복문-1"
+   - [section05_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_3.py) "반복문-2"
+   - [section05_quiz.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_quiz.py) "반복문 - 퀴즈 및 풀이"
+
+6. 함수
+   - [section06.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section06.py) "함수 및 람다(lambda)"
+
+7. 클래스
+   - [section07.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_1.py) "Self, 클래스 변수, 인스턴스 변수"
+   - [section07.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_2.py) "상속, 다중상속"
+
+8. 모듈, 패키지
+   - [section08.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section08.py) "모듈, 패키지"
 
 ## Enthusiastic_Python
 
@@ -23,7 +56,7 @@
 
    - [P_01_1_1.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_1.py) "파이썬 프롬프트를 통해서 자신의 이름을 출력해보자."
    - [P_01_1_2.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_2.py) "파이썬 프롬프트를 통해서 1부터 10까지 더한 결과를 출력해보자."
-   - [P_01_1_3.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_3.py) "파이썬 프롬픞트를 통해서 2를 5회 곱한 결과를 출력해보자."
+   - [P_01_1_3.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_3.py) "파이썬 프롬프트를 통해서 2를 5회 곱한 결과를 출력해보자."
    - [P_01_1_4.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_4.py) "파이썬 프롬프트를 통해서 다음 수식의 결과를 출력해보자. '5-(3-1)' 단, 출력의 형태는 다음과 같아야 한다. 5-(3-1)=3"
    - [P_01_1_5.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_1_5.py) "파이썬 프롬프트를 통해서 10을 2로 나눈 결과와 10을 2로 곱한 결과를 각각 출력해보자."
    - [P_01_2_1.py](./Python/Enthusiastic_Python/Enthusiastic_Python_Basic/Chapter_01/P_01_2_1.py) "정수 2를 세 번 곱하면 얼마인가?"
