@@ -42,8 +42,8 @@
    - [section06.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section06.py) "함수 및 람다(lambda)"
 
 7. 클래스
-   - [section07.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_1.py) "Self, 클래스 변수, 인스턴스 변수"
-   - [section07.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_2.py) "상속, 다중상속"
+   - [section07_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_1.py) "Self, 클래스 변수, 인스턴스 변수"
+   - [section07_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_2.py) "상속, 다중상속"
 
 8. 모듈, 패키지
    - [section08.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section08.py) "모듈, 패키지"
