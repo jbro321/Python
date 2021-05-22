@@ -38,5 +38,8 @@ print("ex4 : ", c.add(10, 100))
 print("ex4 : ", c.mul(10, 100))
 
 # 사용5(함수) - 
-import pkg.calculations as d
+from pkg.calculations import div as d
+print("ex5 : ", int(d(100, 10)))
 
+# 사용6
+d
