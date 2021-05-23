@@ -42,4 +42,3 @@ from pkg.calculations import div as d
 print("ex5 : ", int(d(100, 10)))
 
 # 사용6
-d
