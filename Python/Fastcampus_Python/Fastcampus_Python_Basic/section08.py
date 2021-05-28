@@ -40,3 +40,4 @@ print("ex4 : ", c.mul(10, 100))
 # 사용5(함수) - 
 from pkg.calculations import div as d
 print("ex5 : ", int(d(100, 10)))
+
