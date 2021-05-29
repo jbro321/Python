@@ -139,18 +139,10 @@ try:
     if a == 'Kim':
         print('Ok 허가!')
     else:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        raise IndexError
+except ValueError:
+    print('문제 발생!')
+except Exception as f:
+    print(f)
+else:
+    print('OK!')
