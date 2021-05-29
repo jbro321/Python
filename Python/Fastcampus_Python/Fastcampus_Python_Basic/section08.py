@@ -41,3 +41,11 @@ print("ex4 : ", c.mul(10, 100))
 from pkg.calculations import div as d
 print("ex5 : ", int(d(100, 10)))
 
+# 사용6
+import pkg.prints as p
+# import builtins 이미 들어있는 함수들
+p.prt1()
+p.prt2()
+# print(dir(builtins))
+
+
