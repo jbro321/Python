@@ -78,6 +78,9 @@ print(xlsx.tail())
 # 데이터 확인
 print(xlsx.shape) # 행, 열
 
+# 엑셀 or CSV 다시 쓰기
+xlsx.to_excel('C:/Workspace/Python/Python/Fastcampus_Python/Fastcampus_Python_Basic/resource/result.xlsx', index=False)
+xlsx.to_csv('C:/Workspace/Python/Python/Fastcampus_Python/Fastcampus_Python_Basic/resource/result.csv', index=False)
 
 
 
