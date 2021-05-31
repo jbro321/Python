@@ -9,13 +9,20 @@
 # a[입력받은 값] + b[입력받은값] = 합
 # c[입력받은 값] + d[입력받은값] = 합
 
+#1
+
+from datetime import datetime
+ 
+now = datetime.now()
+print(now)
+
 import sys
 
-a, b, c, d = map(int, sys.stdin.readline().split())
+a = list(map(int, sys.stdin.readline().split()))
 # a, b, c, d = map(int, input().split())
 
-sum1 = a + b
-sum2 = c + d
+print("{} + {} = {}".format(a[0], a[1], sum(a[:2])))
+print("{} + {} = {}".format(a[2], a[3], sum(a[2:])))
 
-print("{} + {} = {}".format(a, b, sum1))
-print("{} + {} = {}".format(c, d, sum2))
+now = datetime.now()
+print(now)

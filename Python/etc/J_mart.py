@@ -43,7 +43,7 @@ if num == 1:
         sum = 1000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 2:
+    if price == 2:
         print("감자 2천원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
@@ -51,7 +51,7 @@ if num == 1:
         sum = 2000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 3:
+    if price == 3:
         print("감자 3천원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
@@ -59,7 +59,7 @@ if num == 1:
         sum = 3000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-elif num == 2:
+if num == 2:
     print("2번 옥수수를 선택하셨습니다.")
     print("---------------")
     print("얼마치를 선택하시겠습니까?")
@@ -76,7 +76,7 @@ elif num == 2:
         sum = 4000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 2:
+    if price == 2:
         print("옥수수 5천원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
@@ -84,7 +84,7 @@ elif num == 2:
         sum = 5000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 3:
+    if price == 3:
         print("옥수수 6천원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
@@ -92,7 +92,7 @@ elif num == 2:
         sum = 6000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-elif num == 3:
+if num == 3:
     print("3번 수박을 선택하셨습니다.")
     print("---------------")
     print("얼마치를 선택하시겠습니까?")
@@ -109,7 +109,7 @@ elif num == 3:
         sum = 10000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 2:
+    if price == 2:
         print("수박 20000원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
@@ -117,7 +117,7 @@ elif num == 3:
         sum = 20000 * number
         print()
         print("총 금액은: {}원 입니다.".format(sum))
-    elif price == 3:
+    if price == 3:
         print("수박 30000원어치를 선택하셨습니다.")
         print()
         print("몇 개를 주문하시겠습니까?")
