@@ -30,17 +30,31 @@ phone text, website text, regdata text)")
 # 데이터 삽입
 c.execute("INSERT INTO users VALUES(1, 'Park', 'Park@naver.com', '010-1234-5678', 'Park.com', ?)", (nowDatetime,))
 # ?로 된거는 뒤의 값으로 대체된다.
+# Primary key는 중복이 되면 안되서 에러가 난다.
+c.execute("INSERT INTO users(id, username, email, phone, website, regdata) VALUES(?, ?, ?, ?, ?, ?)",  (2, 'LEE', 'LEE@naver.com', '010-0000-0000', 'Lee.com', nowDatetime))
 
+# Many 삽입(튜플, 리스트) 한번에 삽입 - 웹에서 크롤링 등 해온 데이터를 한번에 등록
+userList = (
+    (3, 'Kim', 'kim@naver.com', '010-2222-2222', 'Kim.com', nowDatetime),
+    (4, 'Cho', 'Cho@naver.com', '010-3333-3333', 'Cho.com', nowDatetime),
+    (5, 'Yoo', 'Yoo@naver.com', '010-4444-4444', 'Yoo.com', nowDatetime)
+)
 
+c.executemany("INSERT INTO users(id, username, email, phone, website, regdata) VALUES (?, ?, ?, ?, ?, ?)", userList)
 
+# 테이블 데이터 삭제
+# conn.execute("DELETE FROM users")
+# print("users db deleted : ", conn.execute("DELETE FROM users").rowcount)
 
+# 커밋 : isolation_level = None 일 경우 자동 반영(오토 커밋)
+# conn.commit() 을 해야 반영된다.
+# 커밋 롤백은 시점이 중요하다.
 
+# 롤백
+# conn.rollback()
 
-
-
-
-
-
+# 접속 해제
+conn.close()
 
 
 
