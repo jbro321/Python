@@ -63,6 +63,20 @@ with open('C:/Workspace/Python/Python/Fastcampus_Python/Fastcampus_Python_Basic/
 # pip install openpyxl
 # pip install pandas
 
+import pandas as pd
+
+# sheetname='시트명' 또는 숫자, header=숫자 << 몇 번째를 header로 가져올지, skiprow=숫자
+xlsx = pd.read_excel('C:/Workspace/Python/Python/Fastcampus_Python/Fastcampus_Python_Basic/resource/sample.xlsx')
+
+# 상위 데이터 확인
+print(xlsx.head()) # 첫 번째 부터 다섯번째까지 보여준다.
+print()
+
+# 데이터 확인
+print(xlsx.tail())
+
+# 데이터 확인
+print(xlsx.shape) # 행, 열
 
 
 
