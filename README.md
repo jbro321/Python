@@ -70,25 +70,15 @@
 
 12. DB
 
-- [section12_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
-- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
-- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
+- [section12_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_1.py) "SQLite 연동, 테이블 생성, 데이터 삽입-1"
+- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_2.py) "SQLite 연동, 테이블 생성, 데이터 삽입-2"
+- [section12_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_3.py) "SQLite 연동, 테이블 생성, 데이터 삽입-3"
 
-13. DB
+13. 프로젝트
 
-- [section10.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
-
-11. 외부 파일 - 01. Excel, CSV 읽기 쓰기(1)
-12. 외부 파일 - 02. Excel, CSV 읽기 쓰기(2)
-13. DB - 01. SQLite 연동, 테이블 생성, 데이터 삽입(1)
-14. DB - 02. SQLite 연동, 테이블 생성, 데이터 삽입(2)
-15. DB - 03. SQLite 연동, 테이블 생성, 데이터 삽입(3)
-16. DB - 04. 테이블 조회, 조건 조회(1)
-17. DB - 05. 테이블 조회, 조건 조회(2)
-18. DB - 06. 테이블 수정, 삭제
-19. 프로젝트 - 01. 타이핑 게임 제작, 기본 완성(1)
-20. 프로젝트 - 02. 타이핑 게임 제작, 기본 완성(2)
-21. 프로젝트 - 03. 타이핑 게임 제작, 효과음 적용, DB 연동
+- [section13_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_1.py) "타이핑 게임 제작, 기본 완성-1"
+- [section13_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_2.py) "타이핑 게임 제작, 기본 완성-2"
+- [section13_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_3.py) "타이핑 게임 제작, 효과음 적용, DB 연동"
 
 ## Enthusiastic_Python
 
