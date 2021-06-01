@@ -15,17 +15,21 @@
 ## Fastcampus_Python
 
 ### Chapter_01 파이썬 기초 핵심 과정
+
 1. 준비
    [section01.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section01.py) "개발 환경 설정"
 
 2. 기초
+
    - [section02_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section02_1.py) "Print 함수의 이해"
    - [section02_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section02_2.py) "몸 풀기 코딩 해보기"
 
 3. 가상 환경
+
    - [section03.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section03.py) "가상환경 설정 및 패키지 설치"
 
 4. 자료형
+
    - [section04_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_1.py) "데이터타입, 숫자형 및 연산자"
    - [section04_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_2.py) "문자열 및 연산자"
    - [section04_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_3.py) "리스트, 튜플"
@@ -33,20 +37,58 @@
    - [section04_quiz.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section04_quiz.py) "데이터 타입 - 퀴즈 및 풀이"
 
 5. 흐름 제어
+
    - [section05_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_1.py) "조건문"
    - [section05_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_2.py) "반복문-1"
    - [section05_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_3.py) "반복문-2"
    - [section05_quiz.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section05_quiz.py) "반복문 - 퀴즈 및 풀이"
 
 6. 함수
+
    - [section06.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section06.py) "함수 및 람다(lambda)"
 
 7. 클래스
+
    - [section07_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_1.py) "Self, 클래스 변수, 인스턴스 변수"
    - [section07_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section07_2.py) "상속, 다중상속"
 
 8. 모듈, 패키지
+
    - [section08.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section08.py) "모듈, 패키지"
+
+9. 파일
+
+   - [section09.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section09.py) "파일 읽기, 파일 쓰기"
+
+10. 예외
+
+- [section10.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section10.py) "예외"
+
+11. 외부 파일
+
+- [section11.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section11.py) "Excel, CSV 읽기 쓰기"
+
+12. DB
+
+- [section12_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
+- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
+- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
+
+13. DB
+
+- [section10.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12.py) "SQLite 연동, 테이블 생성, 데이터 삽입"
+
+11. 외부 파일 - 01. Excel, CSV 읽기 쓰기(1)
+12. 외부 파일 - 02. Excel, CSV 읽기 쓰기(2)
+13. DB - 01. SQLite 연동, 테이블 생성, 데이터 삽입(1)
+14. DB - 02. SQLite 연동, 테이블 생성, 데이터 삽입(2)
+15. DB - 03. SQLite 연동, 테이블 생성, 데이터 삽입(3)
+16. DB - 04. 테이블 조회, 조건 조회(1)
+17. DB - 05. 테이블 조회, 조건 조회(2)
+18. DB - 06. 테이블 수정, 삭제
+19. 프로젝트 - 01. 타이핑 게임 제작, 기본 완성(1)
+20. 프로젝트 - 02. 타이핑 게임 제작, 기본 완성(2)
+21. 프로젝트 - 03. 타이핑 게임 제작, 효과음 적용, DB 연동
 
 ## Enthusiastic_Python
 
