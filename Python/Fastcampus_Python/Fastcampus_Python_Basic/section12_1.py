@@ -25,13 +25,13 @@ print('Cursor Type : ', type(c))
 
 # 테이블 생성(Data Type : TEXT, NUMBERIC INTEGER REAL BLOB)
 c.execute("CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, username text, email text, \
-phone text, website text, regdata text)")
+phone text, website text, regdate text)")
 
 # 데이터 삽입
 c.execute("INSERT INTO users VALUES(1, 'Park', 'Park@naver.com', '010-1234-5678', 'Park.com', ?)", (nowDatetime,))
 # ?로 된거는 뒤의 값으로 대체된다.
 # Primary key는 중복이 되면 안되서 에러가 난다.
-c.execute("INSERT INTO users(id, username, email, phone, website, regdata) VALUES(?, ?, ?, ?, ?, ?)",  (2, 'LEE', 'LEE@naver.com', '010-0000-0000', 'Lee.com', nowDatetime))
+c.execute("INSERT INTO users(id, username, email, phone, website, regdate) VALUES(?, ?, ?, ?, ?, ?)",  (2, 'LEE', 'LEE@naver.com', '010-0000-0000', 'Lee.com', nowDatetime))
 
 # Many 삽입(튜플, 리스트) 한번에 삽입 - 웹에서 크롤링 등 해온 데이터를 한번에 등록
 userList = (
@@ -40,7 +40,7 @@ userList = (
     (5, 'Yoo', 'Yoo@naver.com', '010-4444-4444', 'Yoo.com', nowDatetime)
 )
 
-c.executemany("INSERT INTO users(id, username, email, phone, website, regdata) VALUES (?, ?, ?, ?, ?, ?)", userList)
+c.executemany("INSERT INTO users(id, username, email, phone, website, regdate) VALUES (?, ?, ?, ?, ?, ?)", userList)
 
 # 테이블 데이터 삭제
 # conn.execute("DELETE FROM users")
