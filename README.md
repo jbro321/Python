@@ -62,23 +62,23 @@
 
 10. 예외
 
-- [section10.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section10.py) "예외"
+    - [section10.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section10.py) "예외"
 
 11. 외부 파일
 
-- [section11.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section11.py) "Excel, CSV 읽기 쓰기"
+    - [section11.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section11.py) "Excel, CSV 읽기 쓰기"
 
 12. DB
 
-- [section12_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_1.py) "SQLite 연동, 테이블 생성, 데이터 삽입-1"
-- [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_2.py) "SQLite 연동, 테이블 생성, 데이터 삽입-2"
-- [section12_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_3.py) "SQLite 연동, 테이블 생성, 데이터 삽입-3"
+    - [section12_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_1.py) "SQLite 연동, 테이블 생성, 데이터 삽입-1"
+    - [section12_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_2.py) "SQLite 연동, 테이블 생성, 데이터 삽입-2"
+    - [section12_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section12_3.py) "SQLite 연동, 테이블 생성, 데이터 삽입-3"
 
 13. 프로젝트
 
-- [section13_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_1.py) "타이핑 게임 제작, 기본 완성-1"
-- [section13_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_2.py) "타이핑 게임 제작, 기본 완성-2"
-- [section13_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_3.py) "타이핑 게임 제작, 효과음 적용, DB 연동"
+    - [section13_1.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_1.py) "타이핑 게임 제작, 기본 완성-1"
+    - [section13_2.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_2.py) "타이핑 게임 제작, 기본 완성-2"
+    - [section13_3.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section13_3.py) "타이핑 게임 제작, 효과음 적용, DB 연동"
 
 ## Enthusiastic_Python
 
