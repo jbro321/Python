@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-width: 1060px;
+  font-size: 1.8rem;
+  font-family: Roboto, Avenir, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background: aqua;
+  height: 72px;
+}
+.container {
+  max-width: 1400px;
+  background: red;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav {
+  text-align: right;
+}
+.list {
+  margin: 0;
+  font-size: 0;
+}
+.list-item {
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.3rem;
+  text-transform: uppercase; /* 대문자화 */
+}
+.list-item > a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.list-item > a:hover {
+  color: #c9f0dd;
+}
+.hero-section {
+  background: skyblue;
+}
+.main-content {
+  float: left;
+  width: 70%;
+  background: pink;
+}
+.side-content {
+  float: right;
+  width: 30%;
+  background: yellow;
+}
+.footer {
+  background: green;
+}
