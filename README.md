@@ -6,8 +6,7 @@
 
 - [ToKnow](./Python/ToKnow.md)
 - [Fastcampus_Python](#Fastcampus_Python)
-  - [Chapter_01_Python_Basic](#Chapter_01_Python_Basic)
-  - [Chapter_02_Fastcampus_Web_Basic_and_Frontend_Basic](#Chapter_02_Fastcampus_Web_Basic_and_Frontend_Basic)
+  - [Python_Basic](#Python_Basic)
 - [Enthusiastic_Python](#Enthusiastic_Python)
   - [Enthusiastic_Python_Basic](#Enthusiastic_Python_Basic)
   - [Enthusiastic_Python_Intermediate](#Enthusiastic_Python_Intermediate)
@@ -15,7 +14,7 @@
 
 ## Fastcampus_Python
 
-### Chapter_01_Python_Basic
+### Python_Basic
 
 1. 준비
    [section01.py](./Python/Fastcampus_Python/Fastcampus_Python_Basic/section01.py) "개발 환경 설정"
