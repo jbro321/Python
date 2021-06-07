@@ -1,0 +1,82 @@
+/* p {
+  background: lightgrey;
+  font-weight: 100;
+}
+.selector {
+  background: lavender;
+  font-weight: 400;
+}
+아이디 선택자는 한번만 사용가능하다.
+#id-selector {
+  background: orange;
+  border: 1px solid #696969;
+  padding: 10px;
+  font-weight: 900;
+} */
+
+h1,
+h2 {
+  color: blue;
+  /* 모든 제목요소에 같은 디자인 속성을 지정하려면 이렇게 묶을 수 있습니다 */
+}
+.korea,
+.japan,
+.china {
+  /* 클래스 선택자도 마찬가지로 묶어서 선택할 수 있습니다. */
+}
+div.region p {
+  /* region 클래스를 가지는 div 요소 하위에 포함된 모든 p 요소를 선택합니다.
+   바로 위에 있는 부모 요소이든, 혹은 멀리 떨어져 있는 계층 구조이든 상관 없습니다. */
+  background-color: orange;
+}
+.region .korea {
+  /* region 클래스를 가지는 모든 요소의 하위에 포함된 korea 클래스 요소를 선택합니다. */
+  background-color: orange;
+}
+.region.korea {
+  /* 띄어쓰기가 있는 것과 없는 것은 완전히 다릅니다.
+  클래스 선택자를 띄어쓰지 않고 작성하면 *두 개가 모두 포함되어 있어야* 적용된다는 의미입니다. */
+  background-color: orange;
+}
+.container > p {
+  /* module 클래스를 가진 요소의 바로 아래의 자식요소 중 h2 요소를 선택하라는 의미입니다.
+  직계자손이라는 뜻에서 더욱 구체적입니다. */
+  background-color: orange;
+}
+.container p {
+  /* 위와 비교해 보세요. */
+  background-color: orange;
+}
+a[title] {
+  /* a 요소 중에서 title 속성이 있는 모든 요소를 선택 */
+  background-color: orange;
+}
+
+a[href="https://www.google.com/maps/place/일본+가가와현+다카마쓰시"]
+{
+  /* href 속성값이 "https://www.google.com/maps/place/일본+가가와현+다카마쓰시"와 일치하는 a 요소 */
+  background-color: orange;
+}
+/* 가상 선택자 */
+a {
+  /* 모든 a 요소 */
+  background-color: orange;
+}
+a:hover,
+a:active,
+a:focus {
+  /* a 요소에 마우스가 올라가있거나, 활성화되어 있거나, 키보드로 선택되어 있을 때 */
+  background-color: orange;
+}
+li:first-child {
+  /* li 요소 중 첫 번째 li 요소 */
+  background-color: orange;
+}
+.container div:last-of-type {
+  /* container 선택자 요소의 하위 div 요소 중 마지막 요소 */
+  background-color: orange;
+}
+h2::before {
+  content: "👉 ";
+  /* h2 요소 앞에 가상 요소를 넣어 '>'라는 콘텐트를 넣어줍니다. */
+}

@@ -1,0 +1,13 @@
+/* '*'는 모든 요소를 선택해주는 선택자
+*::before
+*::after
+가상요소를 설정한다.
+*{
+
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
