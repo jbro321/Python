@@ -1,0 +1,148 @@
+<!-- https://docs.djangoproject.com/en/2.1/topics/http/urls/ 중 일부 발췌하여 HTML 연습용으로 편집 -->
+
+<link rel="stylesheet" href="CSS_font_background.css" />
+
+<div class="container">
+  <h1>URL dispatcher</h1>
+  <img
+    src="https://static.djangoproject.com/img/small-fundraising-heart.d255f6e934e5.png"
+    alt="heart"
+  />
+
+  <p>
+    <em>A clean, elegant URL scheme</em> is an important detail in a
+    high-quality Web application. Django lets you design URLs however you want,
+    with no framework limitations.
+  </p>
+
+  <p>
+    See <a href="#">Cool URIs don’t change</a>, by World Wide Web creator Tim
+    Berners-Lee, for excellent arguments on why URLs should be clean and usable.
+  </p>
+
+  <h2>Overview</h2>
+
+  <p>
+    To design URLs for an app, you create a Python module informally called a
+    <strong>URLconf</strong> (URL configuration). This module is pure Python
+    code and is a mapping between URL path expressions to Python functions (your
+    views).
+  </p>
+
+  <p>
+    This mapping can be as short or as long as needed. It can reference other
+    mappings. And, because it’s pure Python code, it can be constructed
+    dynamically.
+  </p>
+
+  <p>
+    Django also provides a way to translate URLs according to the active
+    language. See the internationalization documentation for more information.
+  </p>
+
+  <h2>How Django processes a request</h2>
+
+  <p>
+    When a user requests a page from your Django-powered site, this is the
+    algorithm the system follows to determine which Python code to execute:
+  </p>
+
+  <ol>
+    <li>
+      Django determines the root URLconf module to use. Ordinarily, this is the
+      value of the <code>ROOT_URLCONF</code> setting, but if the incoming
+      <code>HttpRequest</code> object has a <code>urlconf</code> attribute (set
+      by middleware), its value will be used in place of the
+      <code>ROOT_URLCONF</code> setting.
+    </li>
+    <li>
+      Django loads that Python module and looks for the variable
+      <code>urlpatterns</code>. This should be a Python list of
+      <code>django.urls.path()</code> and/or
+      <code>django.urls.re_path()</code> instances.
+    </li>
+    <li>
+      Django runs through each URL pattern, in order, and stops at the first one
+      that matches the requested URL.
+    </li>
+    <li>
+      Once one of the URL patterns matches, Django imports and calls the given
+      view, which is a simple Python function (or a class-based view). The view
+      gets passed the following arguments:
+      <ul>
+        <li>An instance of <code>HttpRequest</code>.</li>
+        <li>
+          If the matched URL pattern returned no named groups, then the matches
+          from the regular expression are provided as positional arguments.
+        </li>
+        <li>
+          The keyword arguments are made up of any named parts matched by the
+          path expression, overridden by any arguments specified in the optional
+          <code>kwargs</code> argument to <code>django.urls.path()</code> or
+          <code>django.urls.re_path()</code>.
+        </li>
+      </ul>
+    </li>
+    <li>
+      If no URL pattern matches, or if an exception is raised during any point
+      in this process, Django invokes an appropriate error-handling view. See
+      <a href="">Error handling</a> below.
+    </li>
+  </ol>
+
+  <h2>URL namespaces</h2>
+
+  <h3>Introduction</h3>
+
+  <p>
+    URL namespaces allow you to uniquely reverse
+    <a href="">named URL patterns</a> even if different applications use the
+    same URL names. It’s a good practice for third-party apps to always use
+    namespaced URLs (as we did in the tutorial). Similarly, it also allows you
+    to reverse URLs if multiple instances of an application are deployed. In
+    other words, since multiple instances of a single application will share
+    named URLs, namespaces provide a way to tell these named URLs apart.
+  </p>
+
+  <p>
+    Django applications that make proper use of URL namespacing can be deployed
+    more than once for a particular site. For example
+    <code>django.contrib.admin</code> has an <code>AdminSite</code> class which
+    allows you to easily deploy more than one instance of the admin. In a later
+    example, we’ll discuss the idea of deploying the polls application from the
+    tutorial in two different locations so we can serve the same functionality
+    to two different audiences (authors and publishers).
+  </p>
+
+  <p>A URL namespace comes in two parts, both of which are strings:</p>
+
+  <dl>
+    <dt>application namespace</dt>
+    <dd>
+      This describes the name of the application that is being deployed. Every
+      instance of a single application will have the same application namespace.
+      For example, Django’s admin application has the somewhat predictable
+      application namespace of <code>'admin'</code>.
+    </dd>
+    <dt>instance namespace</dt>
+    <dd>
+      This identifies a specific instance of an application. Instance namespaces
+      should be unique across your entire project. However, an instance
+      namespace can be the same as the application namespace. This is used to
+      specify a default instance of an application. For example, the default
+      Django admin instance has an instance namespace of <code>'admin'</code>.
+    </dd>
+  </dl>
+  <p>
+    Namespaced URLs are specified using the ':' operator. For example, the main
+    index page of the admin application is referenced using
+    <code>'admin:index'</code>. This indicates a namespace of
+    <code>'admin'</code>, and a named URL of <code>'index'</code>.
+  </p>
+  <p>
+    Namespaces can also be nested. The named URL
+    <code>'sports:polls:index'</code> would look for a pattern named
+    <code>'index'</code> in the namespace <code>'polls'</code> that is itself
+    defined within the top-level namespace <code>'sports'</code>.
+  </p>
+</div>

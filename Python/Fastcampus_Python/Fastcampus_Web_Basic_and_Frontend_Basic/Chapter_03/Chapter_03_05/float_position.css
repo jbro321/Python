@@ -1,0 +1,29 @@
+.container {
+  background-color: #0c4b33;
+  color: #fff;
+  position: relative;
+}
+.container2 {
+  width: 200px;
+  height: 200px;
+  background: red;
+  /* position: relative; */
+}
+img {
+  position: absolute; /* relative가 적용되도 전체적인 것은 안바뀐다.*/
+  top: 0;
+  left: 0;
+  /* 	position: fixed; abosolute는 전체적인 디자인에도 적용된다.
+	bottom: 0;
+	right: 0; */
+}
+li {
+  display: inline-block; /* float는 옆으로 물 흘르듯이 띄우다. */
+  width: 100px;
+}
+a {
+  color: skyblue;
+}
+em {
+  display: inline;
+}

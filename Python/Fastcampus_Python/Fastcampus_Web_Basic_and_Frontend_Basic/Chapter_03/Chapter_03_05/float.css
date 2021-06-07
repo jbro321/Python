@@ -1,0 +1,15 @@
+.column1 {
+  float: left;
+  width: 30%;
+}
+.column2 {
+  float: left;
+  width: 30%;
+}
+.column3 {
+  float: left;
+  width: 30%;
+}
+.footer {
+  clear: both; /* footer를 밑으로 보내고 싶어서 clear 해야 물 흐르듯이 쭉*/
+}

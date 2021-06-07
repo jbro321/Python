@@ -1,0 +1,23 @@
+html {
+  font-size: 10px;
+}
+.container {
+  /* font: italic 900 1.5rem Arial, Georgia, Times, "Times New Roman", serif; */
+  /* 단축표기법으로도 기재 가능 */
+  font-style: italic;
+  font-weight: 900; /* 두께를 나타낸다. bold 등도 가능 */
+  font-family: Arial, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem; /* root em */
+}
+p {
+  color: #fff; /* 키워드, 16진수 rgb코드도 가능, rgb(0에 가까울 수록 어둡다.), rgba(투명도도 가능)*/
+  background-color: blue;
+  /* font-size: 1.5em */
+  /* 부모 요소를 기준으로 상대적으로 적용 */
+  text-align: center; /* 글자 정렬 */
+  line-height: 1.5rem; /* 줄 간격 */
+}
+li {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
